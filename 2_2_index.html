@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            a {
+                text-decoration : none;
+                color : black;
+            }
+            div.recommend {
+                border:1px dotted;
+                padding : 10px;
+            }
+        </style>
+        <title>Introduce Korea</title>
+    </head>
+    <body>
+        <br>
+        <h1><a href="index.html
+            
+            
+            
+            
+            "><div style="text-align:center">Hello, Korea</div></a></h1>
+        <hr>
+        <br>
+        <li>
+            <div class="recommend">
+                <h3>History</h3>
+                    <ol type="1">
+                        <li>Hunt
+                        <li>With the Korean flag flying
+                        <li>Sunny
+                        <li>Gwanghae, the man who became king
+                        <li>A taxi driver
+                    </ol>
+                </li>
+            </div>
+        </li>
+        <textarea id="text">
+            Hunt
+            With the Korean flag flying
+            Sunny
+            Gwanghae, the man who became king
+            A taxi driver</textarea><br>
+        <botton id="copy">copy</botton>
+        <br>
+            <li>
+                <div class="recommend">
+                    <h3>Fantasy</h3>
+                        <ol type="1">
+                            <li>A werewolf boy
+                            <li>I'm coming to see you.
+                            <li>A man of letters
+                            <li>Monster
+                        </ol>
+                    </li>
+                </div>
+            </li>
+            <textarea id="text">
+                A werewolf boy
+                I'm coming to see you.
+                A man of letters
+                Monster
+            </textarea><br>
+            <botton id="copy">copy</botton>
+        <br>
+            <li>
+                <div class="recommend">
+                    <h3>Action</h3>
+                        <ol type="1">
+                            <li>Uncle
+                            <li>Air conditioning
+                            <li>A villain's exhibition
+                        </ol>
+                    </li>
+                </div>
+            </li>
+            <textarea id="text">
+                Uncle
+                Air conditioning
+                A villain's exhibition</textarea><br>
+            <botton id="copy">copy</botton>
+        <br>
+            <li>
+                <div class="recommend">
+                    <h3>Thriller</h3>
+                        <ol type="1">
+                            <li>I saw the devil
+                            <li>The Wailing
+                            <li>Pandora
+                            <li>Transmission restrictions
+                            <li>Parasite
+                        </ol>
+                    </li>
+                </div>
+                <textarea id="text">
+                    Thriller
+                    I saw the devil
+                    The Wailing
+                    Pandora
+                    Transmission restrictions
+                    Parasite</textarea><br>
+                <botton id="copy">copy</botton>
+            </li>
+        <script>
+            document.getElementById("copy").onclick = function(){
+                var text = document.getElementById("text");
+                text.select();
+                document.execCommand("copy");
+                alert("copied!")
+            }
+        </script>
+    </body>
+</html>
